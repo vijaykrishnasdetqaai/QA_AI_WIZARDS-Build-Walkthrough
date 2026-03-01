@@ -27,6 +27,7 @@ const menuItems = [
                 icon: TestTube,
                 submodules: [
                     { name: 'Prompt Testing E2E', path: '/testing/prompt', icon: Terminal },
+                    { name: 'RAG Testing E2E', path: '/testing/rag', icon: Database },
                     { name: 'Agentic Testing E2E', path: '/testing/agentic', icon: Bot },
                     { name: 'AI Testing E2E', path: '/testing/ai', icon: Brain },
                     { name: 'Manual Testing E2E', path: '/testing/manual', icon: FileSearch },
