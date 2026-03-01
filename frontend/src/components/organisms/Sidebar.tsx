@@ -25,6 +25,7 @@ const menuItems = [
                 name: 'Software Testing',
                 icon: TestTube,
                 submodules: [
+                    { name: 'AI Testing E2E', path: '/testing/ai', icon: Brain },
                     { name: 'Manual Testing E2E', path: '/testing/manual', icon: FileSearch },
                     { name: 'Web & Mobile UI', path: '/testing/manual/web-elements', icon: MousePointerClick },
                     { name: 'Automation Testing', path: '/testing/automation', icon: FileTerminal },
