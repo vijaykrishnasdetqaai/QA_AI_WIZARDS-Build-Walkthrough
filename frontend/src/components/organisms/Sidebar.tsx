@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
     Home, BookOpen, Layers, Users, Mail, Settings, ChevronDown, SwitchCamera,
     Brain, Cloud, Code, TestTube, FileText, Map, Video, Zap, FileTerminal, FileSearch, Gauge, MousePointerClick, Database, ShieldAlert,
-    Bot, ShieldCheck, Activity, GraduationCap, MessageSquare, LogOut, ChevronRight
+    Bot, ShieldCheck, Activity, GraduationCap, MessageSquare, LogOut, ChevronRight, Terminal
 } from 'lucide-react';
 import ThemeToggle from '@/components/atoms/ThemeToggle';
 
@@ -26,6 +26,7 @@ const menuItems = [
                 name: 'Software Testing',
                 icon: TestTube,
                 submodules: [
+                    { name: 'Prompt Testing E2E', path: '/testing/prompt', icon: Terminal },
                     { name: 'Agentic Testing E2E', path: '/testing/agentic', icon: Bot },
                     { name: 'AI Testing E2E', path: '/testing/ai', icon: Brain },
                     { name: 'Manual Testing E2E', path: '/testing/manual', icon: FileSearch },
