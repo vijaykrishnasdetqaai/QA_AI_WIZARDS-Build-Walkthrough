@@ -1,0 +1,177 @@
+﻿
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\cypress.config.js
+   1:26  error    A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  11:25  warning  'on' is defined but never used           @typescript-eslint/no-unused-vars
+  11:29  warning  'config' is defined but never used       @typescript-eslint/no-unused-vars
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\blog\page.tsx
+  6:45  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\community\page.tsx
+  4:8   warning  'Link' is defined but never used        @typescript-eslint/no-unused-vars
+  5:10  warning  'Users' is defined but never used       @typescript-eslint/no-unused-vars
+  5:50  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+  5:69  warning  'Heart' is defined but never used       @typescript-eslint/no-unused-vars
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\contact\page.tsx
+  5:37  warning  'MessageSquare' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\dashboard\page.tsx
+  4:10  warning  'LayoutDashboard' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\login\page.tsx
+  7:8  warning  'Badge' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\page.tsx
+  161:34  warning  'i' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\resources\page.tsx
+  4:59  warning  'Download' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\roadmaps\page.tsx
+  5:52  warning  'CheckCircle' is defined but never used  @typescript-eslint/no-unused-vars
+  6:8   warning  'Card' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\testing\api\page.tsx
+   4:18  warning  'ShieldCheck' is defined but never used                          @typescript-eslint/no-unused-vars
+   4:36  warning  'Cog' is defined but never used                                  @typescript-eslint/no-unused-vars
+   4:55  warning  'Box' is defined but never used                                  @typescript-eslint/no-unused-vars
+   4:60  warning  'Cpu' is defined but never used                                  @typescript-eslint/no-unused-vars
+   4:80  warning  'LayoutTemplate' is defined but never used                       @typescript-eslint/no-unused-vars
+  32:87  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  32:94  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\testing\automation\page.tsx
+    4:25   warning  'ShieldCheck' is defined but never used                          @typescript-eslint/no-unused-vars
+  100:120  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  100:126  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  100:129  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  100:140  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\testing\database\page.tsx
+    5:41   warning  'Network' is defined but never used                              @typescript-eslint/no-unused-vars
+    5:50   warning  'FolderSync' is defined but never used                           @typescript-eslint/no-unused-vars
+   45:167  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  133:123  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  133:129  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  133:132  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  133:143  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  137:105  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  137:114  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  141:113  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  141:124  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  161:71   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  161:77   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  162:73   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  162:79   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  166:46   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  166:58   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  183:114  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  183:122  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\testing\manual\page.tsx
+  145:136  error  Parsing error: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\testing\manual\web-elements\page.tsx
+   5:21  warning  'MousePointerClick' is defined but never used                    @typescript-eslint/no-unused-vars
+   6:10  warning  'FileBox' is defined but never used                              @typescript-eslint/no-unused-vars
+   6:19  warning  'Columns' is defined but never used                              @typescript-eslint/no-unused-vars
+   6:42  warning  'AlertTriangle' is defined but never used                        @typescript-eslint/no-unused-vars
+   6:57  warning  'Bug' is defined but never used                                  @typescript-eslint/no-unused-vars
+   6:62  warning  'SmartphoneNfc' is defined but never used                        @typescript-eslint/no-unused-vars
+  88:42  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\testing\performance\page.tsx
+    4:10   warning  'Activity' is defined but never used                             @typescript-eslint/no-unused-vars
+    4:20   warning  'ShieldCheck' is defined but never used                          @typescript-eslint/no-unused-vars
+    4:33   warning  'Zap' is defined but never used                                  @typescript-eslint/no-unused-vars
+    4:38   warning  'Cog' is defined but never used                                  @typescript-eslint/no-unused-vars
+    4:57   warning  'Box' is defined but never used                                  @typescript-eslint/no-unused-vars
+    4:67   warning  'FileJson' is defined but never used                             @typescript-eslint/no-unused-vars
+    4:84   warning  'ServerCrash' is defined but never used                          @typescript-eslint/no-unused-vars
+    4:97   warning  'Clock' is defined but never used                                @typescript-eslint/no-unused-vars
+   47:114  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   98:245  error    Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+  145:60   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  145:70   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\app\testing\security\page.tsx
+    5:18   warning  'ShieldCheck' is defined but never used                          @typescript-eslint/no-unused-vars
+    5:47   warning  'UserX' is defined but never used                                @typescript-eslint/no-unused-vars
+    6:5    warning  'Database' is defined but never used                             @typescript-eslint/no-unused-vars
+    6:30   warning  'Bug' is defined but never used                                  @typescript-eslint/no-unused-vars
+    6:59   warning  'Fingerprint' is defined but never used                          @typescript-eslint/no-unused-vars
+   38:123  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   44:169  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   89:258  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   99:104  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+   99:142  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  114:108  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  114:154  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  134:129  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  135:141  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  135:146  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\components\atoms\ThemeToggle.tsx
+  11:21  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\components\atoms\ThemeToggle.tsx:11:21
+   9 |     const { theme, setTheme } = useTheme();
+  10 |
+> 11 |     useEffect(() => setMounted(true), []);
+     |                     ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  12 |     if (!mounted) return <div className="w-10 h-10" />;
+  13 |
+  14 |     return (  react-hooks/set-state-in-effect
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\components\organisms\Hero3D.tsx
+  41:33  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\components\organisms\Hero3D.tsx:41:33
+  39 |         const positions = new Float32Array(count * 3);
+  40 |         for (let i = 0; i < count; i++) {
+> 41 |             positions[i * 3] = (Math.random() - 0.5) * 20;
+     |                                 ^^^^^^^^^^^^^ Cannot call impure function
+  42 |             positions[i * 3 + 1] = (Math.random() - 0.5) * 20;
+  43 |             positions[i * 3 + 2] = (Math.random() - 0.5) * 20;
+  44 |         }  react-hooks/purity
+  42:37  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\components\organisms\Hero3D.tsx:42:37
+  40 |         for (let i = 0; i < count; i++) {
+  41 |             positions[i * 3] = (Math.random() - 0.5) * 20;
+> 42 |             positions[i * 3 + 1] = (Math.random() - 0.5) * 20;
+     |                                     ^^^^^^^^^^^^^ Cannot call impure function
+  43 |             positions[i * 3 + 2] = (Math.random() - 0.5) * 20;
+  44 |         }
+  45 |         return positions;                           react-hooks/purity
+  43:37  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\components\organisms\Hero3D.tsx:43:37
+  41 |             positions[i * 3] = (Math.random() - 0.5) * 20;
+  42 |             positions[i * 3 + 1] = (Math.random() - 0.5) * 20;
+> 43 |             positions[i * 3 + 2] = (Math.random() - 0.5) * 20;
+     |                                     ^^^^^^^^^^^^^ Cannot call impure function
+  44 |         }
+  45 |         return positions;
+  46 |     }, [count]);                                                    react-hooks/purity
+
+C:\Users\vguda\Downloads\New folder (5)\qa-ai-wizards\frontend\src\components\organisms\Sidebar.tsx
+    8:42  warning  'Settings' is defined but never used      @typescript-eslint/no-unused-vars
+   72:52  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  114:60  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+Γ£û 88 problems (46 errors, 42 warnings)
+
