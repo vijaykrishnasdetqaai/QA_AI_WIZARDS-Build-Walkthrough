@@ -1,0 +1,173 @@
+﻿node.exe : FAIL 
+src/tests/api.test.ts
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (FAIL src/test   
+ s/api.test.ts:Stri    
+ng) [], RemoteExce    
+ption
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+  ΓùÅ Test suite 
+failed to run
+
+    [96msrc/modules/au
+th/auth.service.ts[0m:
+[93m93[0m:[93m33[0m
+ - [91merror[0m[90m 
+TS2769: [0mNo 
+overload matches this 
+call.
+      Overload 1 of 5, 
+'(payload: string | 
+object | Buffer<ArrayBu
+fferLike>, 
+secretOrPrivateKey: 
+null, options?: 
+(SignOptions & { 
+algorithm: "none"; }) 
+| undefined): string', 
+gave the following 
+error.
+        Argument of 
+type 'string' is not 
+assignable to 
+parameter of type 
+'null'.
+      Overload 2 of 5, 
+'(payload: string | 
+object | Buffer<ArrayBu
+fferLike>, 
+secretOrPrivateKey: Buf
+fer<ArrayBufferLike> | 
+Secret | 
+PrivateKeyInput | 
+JsonWebKeyInput, 
+options?: SignOptions 
+| undefined): string', 
+gave the following 
+error.
+        Type 'string' 
+is not assignable to 
+type 'number | 
+StringValue | 
+undefined'.
+      Overload 3 of 5, 
+'(payload: string | 
+object | Buffer<ArrayBu
+fferLike>, 
+secretOrPrivateKey: Buf
+fer<ArrayBufferLike> | 
+Secret | 
+PrivateKeyInput | 
+JsonWebKeyInput, 
+callback: 
+SignCallback): void', 
+gave the following 
+error.
+        Object literal 
+may only specify known 
+properties, and 
+'expiresIn' does not 
+exist in type 
+'SignCallback'.
+
+    [7m93[0m         
+const accessToken = 
+jwt.sign({ userId, 
+role }, 
+config.jwt.secret, {
+    [7m  [0m [91m   
+                       
+      ~~~~[0m
+
+    [96msrc/modules/au
+th/auth.service.ts[0m:
+[93m96[0m:[93m34[0m
+ - [91merror[0m[90m 
+TS2769: [0mNo 
+overload matches this 
+call.
+      Overload 1 of 5, 
+'(payload: string | 
+object | Buffer<ArrayBu
+fferLike>, 
+secretOrPrivateKey: 
+null, options?: 
+(SignOptions & { 
+algorithm: "none"; }) 
+| undefined): string', 
+gave the following 
+error.
+        Argument of 
+type 'string' is not 
+assignable to 
+parameter of type 
+'null'.
+      Overload 2 of 5, 
+'(payload: string | 
+object | Buffer<ArrayBu
+fferLike>, 
+secretOrPrivateKey: Buf
+fer<ArrayBufferLike> | 
+Secret | 
+PrivateKeyInput | 
+JsonWebKeyInput, 
+options?: SignOptions 
+| undefined): string', 
+gave the following 
+error.
+        Type 'string' 
+is not assignable to 
+type 'number | 
+StringValue | 
+undefined'.
+      Overload 3 of 5, 
+'(payload: string | 
+object | Buffer<ArrayBu
+fferLike>, 
+secretOrPrivateKey: Buf
+fer<ArrayBufferLike> | 
+Secret | 
+PrivateKeyInput | 
+JsonWebKeyInput, 
+callback: 
+SignCallback): void', 
+gave the following 
+error.
+        Object literal 
+may only specify known 
+properties, and 
+'expiresIn' does not 
+exist in type 
+'SignCallback'.
+
+    [7m96[0m         
+const refreshToken = 
+jwt.sign({ userId }, co
+nfig.jwt.refreshSecret,
+ {
+    [7m  [0m [91m   
+                       
+       ~~~~[0m
+
+Test Suites: 1 failed, 
+1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.528 s
+Ran all test suites 
+matching /src\\tests\\a
+pi.test.ts/i.

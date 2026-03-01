@@ -26,14 +26,14 @@ router.post('/', authenticate, authorize('ADMIN'), async (req: Request, res: Res
 
 router.put('/:id', authenticate, authorize('ADMIN'), async (req: Request, res: Response, next: NextFunction) => {
     try {
-        const category = await prisma.category.update({ where: { id: req.params.id }, data: req.body });
+        const category = await prisma.category.update({ where: { id: req.params.id as string }, data: req.body });
         res.json({ data: category });
     } catch (error) { next(error); }
 });
 
 router.delete('/:id', authenticate, authorize('ADMIN'), async (req: Request, res: Response, next: NextFunction) => {
     try {
-        await prisma.category.delete({ where: { id: req.params.id } });
+        await prisma.category.delete({ where: { id: req.params.id as string } });
         res.json({ message: 'Category deleted' });
     } catch (error) { next(error); }
 });
@@ -55,7 +55,7 @@ roadmapRouter.get('/', async (_req: Request, res: Response, next: NextFunction) 
 roadmapRouter.get('/:slug', async (req: Request, res: Response, next: NextFunction) => {
     try {
         const roadmap = await prisma.roadmap.findUnique({
-            where: { slug: req.params.slug },
+            where: { slug: req.params.slug as string },
             include: { steps: { orderBy: { order: 'asc' } } },
         });
         if (!roadmap) { res.status(404).json({ error: 'Roadmap not found' }); return; }
@@ -84,7 +84,7 @@ export const commentRouter = Router();
 commentRouter.post('/:blogId', authenticate, async (req: AuthRequest, res: Response, next: NextFunction) => {
     try {
         const comment = await prisma.comment.create({
-            data: { content: req.body.content, authorId: req.userId!, blogId: req.params.blogId, parentId: req.body.parentId },
+            data: { content: req.body.content, authorId: req.userId!, blogId: req.params.blogId as string, parentId: req.body.parentId },
             include: { author: { select: { id: true, firstName: true, lastName: true, avatar: true } } },
         });
         res.status(201).json({ data: comment });
@@ -93,10 +93,10 @@ commentRouter.post('/:blogId', authenticate, async (req: AuthRequest, res: Respo
 
 commentRouter.delete('/:id', authenticate, async (req: AuthRequest, res: Response, next: NextFunction) => {
     try {
-        const comment = await prisma.comment.findUnique({ where: { id: req.params.id } });
+        const comment = await prisma.comment.findUnique({ where: { id: req.params.id as string } });
         if (!comment) { res.status(404).json({ error: 'Comment not found' }); return; }
         if (comment.authorId !== req.userId) { res.status(403).json({ error: 'Not authorized' }); return; }
-        await prisma.comment.delete({ where: { id: req.params.id } });
+        await prisma.comment.delete({ where: { id: req.params.id as string } });
         res.json({ message: 'Comment deleted' });
     } catch (error) { next(error); }
 });
@@ -143,7 +143,7 @@ adminRouter.get('/users', authenticate, authorize('ADMIN'), async (req: Request,
 
 adminRouter.patch('/users/:id/role', authenticate, authorize('ADMIN'), async (req: Request, res: Response, next: NextFunction) => {
     try {
-        const user = await prisma.user.update({ where: { id: req.params.id }, data: { role: req.body.role } });
+        const user = await prisma.user.update({ where: { id: req.params.id as string }, data: { role: req.body.role } });
         res.json({ data: { id: user.id, role: user.role } });
     } catch (error) { next(error); }
 });

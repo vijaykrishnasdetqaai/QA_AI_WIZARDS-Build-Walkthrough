@@ -26,21 +26,21 @@ export class BlogController {
 
     async findBySlug(req: Request, res: Response, next: NextFunction) {
         try {
-            const blog = await blogService.findBySlug(req.params.slug);
+            const blog = await blogService.findBySlug(req.params.slug as string);
             res.json({ data: blog });
         } catch (error) { next(error); }
     }
 
     async update(req: AuthRequest, res: Response, next: NextFunction) {
         try {
-            const blog = await blogService.update(req.params.id, req.body, req.userId!);
+            const blog = await blogService.update(req.params.id as string, req.body, req.userId!);
             res.json({ message: 'Blog updated', data: blog });
         } catch (error) { next(error); }
     }
 
     async delete(req: AuthRequest, res: Response, next: NextFunction) {
         try {
-            await blogService.delete(req.params.id, req.userId!, req.userRole!);
+            await blogService.delete(req.params.id as string, req.userId!, req.userRole!);
             res.json({ message: 'Blog deleted' });
         } catch (error) { next(error); }
     }
