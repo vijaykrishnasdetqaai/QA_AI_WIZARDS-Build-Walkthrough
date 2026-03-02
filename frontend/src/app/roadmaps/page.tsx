@@ -43,7 +43,7 @@ const roadmaps = [
         title: 'Software Testing',
         desc: 'Manual testing to advanced automation with AI-driven QA.',
         color: '#f59e0b',
-        steps: ['Testing Fundamentals', 'Test Automation (Selenium/Cypress)', 'API Testing', 'Performance Testing', 'Security Testing', 'AI-Powered Testing'],
+        steps: ['Testing Fundamentals', 'Test Automation (Selenium/Cypress)', 'API Testing', 'Performance Testing', 'Security Testing', 'Vector Database Testing', 'Multi-Agent System Testing', 'LLM Red Team Testing', 'AI DevSecOps Testing', 'AI-Powered Testing'],
         duration: '4-6 months',
         level: 'Beginner → Expert',
     },
